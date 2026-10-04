@@ -11,9 +11,13 @@ class UserWidget {
    * Если переданный элемент не существует,
    * необходимо выкинуть ошибку.
    * */
-  constructor(element){
-
+  constructor(element) {
+  if (element) {
+    this.element = element;
+  } else {
+    throw new Error('Элемент не передан');
   }
+}
 
   /**
    * Получает информацию о текущем пользователе
@@ -23,6 +27,10 @@ class UserWidget {
    * авторизованного пользователя
    * */
   update(){
-
+    const user = User.current();
+    if (user) {
+    const nameElement = document.querySelector('.user-name');
+    nameElement.textContent = user.name;
+    }
   }
 }
