@@ -35,6 +35,18 @@
       "email": "Keks@mail.ru",
       "password": "Keks",
       "id": "2xuyyfbkmuu3zph1"
+    },
+    {
+      "name": "kek",
+      "email": "kek@mail.ru",
+      "password": "kek",
+      "id": "2xuyyfckmvy4c2iz"
+    },
+    {
+      "name": "Danya",
+      "email": "Danya@mail.ru",
+      "password": "Danya",
+      "id": "2xuyy5o0mvzm0p6l"
     }
   ],
   "accounts": [
@@ -57,6 +69,16 @@
       "name": "313113",
       "user_id": "2xuyyfbkmuu3zph1",
       "id": "2xuyyg4omuu5p4md"
+    },
+    {
+      "name": "Sberbank",
+      "user_id": "2xuyyfckmvy4c2iz",
+      "id": "2xuyybqwmvy4csqt"
+    },
+    {
+      "name": "Sberbank",
+      "user_id": "2xuyy5o0mvzm0p6l",
+      "id": "2xuyyh7gmvzm11is"
     }
   ],
   "transactions": [
@@ -196,15 +218,6 @@
       "user_id": "1"
     },
     {
-      "id": "2xuyy3w4muu5sjna",
-      "type": "income",
-      "name": "2121",
-      "sum": 2121121212121,
-      "account_id": "2xuyyg4omuu5p4md",
-      "user_id": "2xuyyfbkmuu3zph1",
-      "created_at": "2026-10-04T18:33:15.381Z"
-    },
-    {
       "id": "2xuyydr8muu5spdm",
       "type": "expense",
       "name": "212121",
@@ -212,6 +225,51 @@
       "account_id": "2xuyyg4omuu5p4md",
       "user_id": "2xuyyfbkmuu3zph1",
       "created_at": "2026-10-04T18:33:22.809Z"
+    },
+    {
+      "id": "2xuyy9j8mvy4cwaq",
+      "type": "income",
+      "name": "dollars",
+      "sum": 20000,
+      "account_id": "2xuyybqwmvy4csqt",
+      "user_id": "2xuyyfckmvy4c2iz",
+      "created_at": "2026-11-01T17:43:52.705Z"
+    },
+    {
+      "id": "2xuyy7hcmvzm14r9",
+      "type": "income",
+      "name": "dollars",
+      "sum": 20000,
+      "account_id": "2xuyyh7gmvzm11is",
+      "user_id": "2xuyy5o0mvzm0p6l",
+      "created_at": "2026-11-02T18:46:23.060Z"
+    },
+    {
+      "id": "2xuyy9ckmvzm1bi3",
+      "type": "income",
+      "name": "dollars",
+      "sum": 212121,
+      "account_id": "2xuyyh7gmvzm11is",
+      "user_id": "2xuyy5o0mvzm0p6l",
+      "created_at": "2026-11-02T18:46:31.802Z"
+    },
+    {
+      "id": "2xuyyfvgmvzm1q9c",
+      "type": "income",
+      "name": "dollars",
+      "sum": 5,
+      "account_id": "2xuyyh7gmvzm11is",
+      "user_id": "2xuyy5o0mvzm0p6l",
+      "created_at": "2026-11-02T18:46:50.927Z"
+    },
+    {
+      "id": "2xuyy1s4mvzm1uup",
+      "type": "income",
+      "name": "ывыввыы",
+      "sum": 1133131,
+      "account_id": "2xuyyh7gmvzm11is",
+      "user_id": "2xuyy5o0mvzm0p6l",
+      "created_at": "2026-11-02T18:46:56.880Z"
     }
   ]
 }
